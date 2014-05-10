@@ -1,1 +1,3 @@
-### Just some C# programs for learning
+### Just some programs for my study
+
+sorted by programming languages
