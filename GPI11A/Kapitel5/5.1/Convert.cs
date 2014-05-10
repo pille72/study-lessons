@@ -4,7 +4,7 @@ public class Convert {
 	public static void Main(string [] args) {
 		int number;
 
-		Console.WriteLine("Eingabe Nummer: ");		
+		Console.WriteLine("Input Number: ");		
 		number = 123456789;//Int32.Parse(Console.ReadLine());
 
 		Console.WriteLine(

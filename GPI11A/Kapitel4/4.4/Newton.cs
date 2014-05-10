@@ -5,10 +5,10 @@ public class Newton {
 		const double N = 0.101972;
 		int newton, kp;
 
-		Console.WriteLine("Eingabe N: ");		
+		Console.WriteLine("Input N: ");		
 		newton = Int32.Parse(Console.ReadLine());
 
-		Console.WriteLine("Eingabe KP: ");
+		Console.WriteLine("Input KP: ");
 		kp = Int32.Parse(Console.ReadLine());
 
 		Console.WriteLine(

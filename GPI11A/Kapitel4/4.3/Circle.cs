@@ -5,8 +5,8 @@ public class Circle {
 		int radius = Int32.Parse(Console.ReadLine());
 
 		Console.WriteLine(
-			"Umfang: " + (2*Math.PI*radius) +  "\n" +
-			"Flächeninhalt: " + (Math.PI * (radius*radius) ) + "\n" 
+			"Perimeter: " + (2*Math.PI*radius) +  "\n" +
+			"Acreage: " + (Math.PI * (radius*radius) ) + "\n" 
 		);
 	}
 }
