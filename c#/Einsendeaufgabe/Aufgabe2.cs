@@ -3,7 +3,10 @@
  * @author majewski
  *
  * Description:
- *
+ * Einlesen einer aus Ziffern bestehenden Zeichenkette,
+ * - Ausgabe der Zeichenkette
+ * - Umwandeln der Zeichenkette als typ `long`
+ * - Berechnen der Quersumme der einzelnen Ziffern
  */
 using System;
 
