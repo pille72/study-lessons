@@ -21,7 +21,7 @@ public class Aufgabe7 {
 		d = ( ( 19 * a ) + m ) % 30;
 		r = ( d / 29 ) + ( ( d / 28 ) - ( d / 29 ) ) * ( a / 11 );
 		og = 21 + d - r;
-		sz = 7 - ( ( ( jahr + jahr ) / ( 4 + s ) ) % 7 );
+		sz = 7 - ( ( ( jahr + ( jahr / 4 ) + s) ) % 7);
 		oe = 7 - ( ( og - sz ) % 7 );
 
 		osterSonntag = og + oe;
