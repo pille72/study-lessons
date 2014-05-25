@@ -15,6 +15,8 @@ public class Aufgabe2 {
 		long z, sum;
 		int i;
 		// Zeichenkette von der Tastatur lesen
+
+		Console.WriteLine("Geben Sie eine Zeichenkette bestehend aus Ziffern ein: ");
 		string zeichenkette = Console.ReadLine();
 
 		// Teilaufgabe a, eingegebene Zeichenkette ausgeben
