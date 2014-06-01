@@ -5,12 +5,14 @@
  * Description:
  *
  * Hinweis: Die eingegebene Zahl muss unter 4000 sein
+ *
  */
 using System;
 
 public class Aufgabe1 {
 	public static void Main(string [] args) {
 		int input, zahl, count, i = 0, v = 0, x = 0, l = 0, c = 0, d = 0, m = 0;
+		// String zur Ausgabe der römischen Zahl
 		string roem = "";
 
 		do {
