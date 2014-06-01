@@ -1,0 +1,10 @@
+Die 1-te Tuer ist offen.
+Die 4-te Tuer ist offen.
+Die 9-te Tuer ist offen.
+Die 16-te Tuer ist offen.
+Die 25-te Tuer ist offen.
+Die 36-te Tuer ist offen.
+Die 49-te Tuer ist offen.
+Die 64-te Tuer ist offen.
+Die 81-te Tuer ist offen.
+Die 100-te Tuer ist offen.
