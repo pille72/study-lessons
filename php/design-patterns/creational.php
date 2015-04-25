@@ -1,5 +1,4 @@
 <?php
-
 echo "Creational Patterns Start: \n--------------------\n\n";
 
 /**

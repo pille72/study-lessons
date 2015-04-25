@@ -2,7 +2,6 @@
 namespace DesignPatterns\Creational;
 
 class Singleton {
-
 	/**
 	 * this is our instance
 	 * @var array
