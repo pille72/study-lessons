@@ -17,6 +17,7 @@ class Singleton {
 
 	/**
 	 * some function to say something
+	 * @return string
 	 */
 	public function saySomething() {
 		return 'Hello I\'m an singleton instance from a class called "Singleton"';
@@ -32,6 +33,7 @@ class Singleton {
 	 * return the singleton object instance
 	 *
 	 * make sure that extended classes will return the correct instance
+	 * @return Singleton
 	 */
 	public function getInstance() {
 		// if not set, create an instance
