@@ -1,5 +1,5 @@
 <?php
-echo "Behavioral Patterns Start: \n--------------------\n\n";
+include_once('Autoloader.php');
 
 /**
  * Memento-Test
@@ -7,7 +7,7 @@ echo "Behavioral Patterns Start: \n--------------------\n\n";
 
 echo "Start Test: - Memento - \n\n";
 
-$originator = new \DesignPatterns\Behavioral\Originator();
+$originator = new \DesignPatterns\Behavioral\Memento\Originator();
 $originator->setState('First-State');
 echo 'Originator State: ' . $originator->getState();
 echo "\n";
@@ -34,10 +34,8 @@ echo "\n";
 
 echo 'Memento saved State: ' . $memento->getState() . ' and so Originator could rollback to this...';
 
-echo "\n\nEnd Test: - Memento -";
+echo "\n\nEnd Test: - Memento - \n";
 
 /**
  * Memento-Test
  */
-
-echo "\n\nBehavioral Patterns End \n--------------------\n\n";

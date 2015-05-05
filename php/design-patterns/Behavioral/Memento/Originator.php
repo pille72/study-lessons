@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral;
+namespace DesignPatterns\Behavioral\Memento;
 
 /**
  * Originator class
@@ -43,7 +43,7 @@ class Originator {
 	 * @return void
 	 */
 	public function restoreFromMemento($memento) {
-		if(get_class($memento) === 'DesignPatterns\Behavioral\Memento') {
+		if(get_class($memento) === 'DesignPatterns\Behavioral\Memento\Memento') {
 			$this->state = $memento->getState();
 		} else {
 			throw new \Exception('This was no Memento!');

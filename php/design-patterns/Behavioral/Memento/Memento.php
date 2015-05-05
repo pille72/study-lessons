@@ -1,5 +1,5 @@
 <?php
-namespace DesignPatterns\Behavioral;
+namespace DesignPatterns\Behavioral\Memento;
 
 /**
  * Memento class

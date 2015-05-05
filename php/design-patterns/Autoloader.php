@@ -29,3 +29,6 @@ class AutoLoader {
 		}
 	}
 }
+
+$autoLoader = new AutoLoader('DesignPatterns');
+$autoLoader->register();
